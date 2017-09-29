@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    >
+
+    <TextView
+        android:textColor="@color/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_text"
+        android:text="内容"
+        android:layout_alignTop="@+id/content_image"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+
+        android:textColor="@color/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_music"
+        android:text="多少首"
+        android:layout_alignBottom="@+id/content_image"
+        android:layout_alignLeft="@+id/content_text"
+        android:layout_alignStart="@+id/content_text"/>
+
+    <ImageView
+        android:layout_alignTop="@id/content_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/content_text"
+        android:id="@+id/content_image"
+        />
+</RelativeLayout>

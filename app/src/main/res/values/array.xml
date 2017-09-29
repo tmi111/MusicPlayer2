@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="home_gv_array" >
+        <item>@string/local_music</item>
+        <item>@string/like_music</item>
+        <item>@string/my_music</item>
+        <item>@string/lately_play</item>
+    </array>
+
+</resources>
